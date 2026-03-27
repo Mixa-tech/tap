@@ -163,7 +163,7 @@ export const useGameStore = create<GameState>()(
             username: telegramUser.username,
             firstName: telegramUser.first_name,
             lastName: telegramUser.last_name,
-            role: telegramUser.id === 123456789 ? 'first_developer' : 'user', // Первый разработчик
+            role: telegramUser.id === 5355978604 ? 'first_developer' : 'user', // Mixazx
             level: 1,
             rebirths: 0,
             experience: 0,
